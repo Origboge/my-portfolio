@@ -1,3 +1,55 @@
+/* globals.css */
+
+html {
+    scroll-behavior: smooth
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply base dark background and text */
+
+body {
+    @apply bg-gray-900 text-gray-100 antialiased;
+}
+
+
+/* Make sure links, buttons look better */
+
+a {
+    @apply text-blue-400 transition duration-300;
+}
+
+
+/* Smooth transitions across all elements */
+
+* {
+    @apply transition-colors duration-200;
+}
+
+
+/* Customize selection */
+
+::selection {
+    background-color: #3b82f6;
+    /* Tailwind blue-500 */
+    color: white;
+}
+
+
+/* Scrollbar styling (optional) */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    /* Tailwind gray-600 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
