@@ -5,7 +5,7 @@ export default function Hero() {
         Hi, I'm <span className="text-red-500 dark:text-red-400">Bamise Akinfiresoye</span>
       </h1>
       <p className="text-lg md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mb-6">
-        I'm a frontend developer focused on building engaging, responsive web experiences using modern tools.
+        I&rsquo;m a frontend developer focused on building engaging, responsive web experiences using modern tools.
       </p>
       <div className="flex gap-4">
         <a

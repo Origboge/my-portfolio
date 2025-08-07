@@ -14,16 +14,16 @@ export default function Home() {
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-500">About Me</h2>
       <p className="text-lg text-gray-300 leading-relaxed">
         I'm <span className="font-semibold">Bamise Akinfiresoye</span>, a curious mind with a background in Microbiology, and a growing passion for web development.
-        Over time, I've transitioned from microscopes to code editors, now building responsive, user focused websites using HTML, CSS, and JavaScript.
+        Over time, I&rsquo;ve transitioned from microscopes to code editors, now building responsive, user focused websites using HTML, CSS, and JavaScript.
       </p>
 
       <p className="text-lg text-gray-300 mt-4 leading-relaxed">
         My journey into tech is fueled by a strong desire to create meaningful digital experiences and explore emerging technologies like Web3 and blockchain.
-        Outside the screen, I've dabbled in shoemaking, enjoy writing, and stay engaged with tech communities and continuous learning.
+        Outside the screen, I&rsquo;ve dabbled in shoemaking, enjoy writing, and stay engaged with tech communities and continuous learning.
       </p>
 
       <p className="text-lg text-gray-300 mt-4 leading-relaxed">
-        I'm currently open to opportunities where I can grow, contribute, and collaborate whether that's in tech, research, or cross-functional roles that blend creativity with problem-solving.
+        I&rsquo;m currently open to opportunities where I can grow, contribute, and collaborate whether that&rsquo;s in tech, research, or cross-functional roles that blend creativity with problem-solving.
       </p>
     </section>
 
@@ -41,7 +41,7 @@ export default function Home() {
 >
   <h2 className="text-3xl font-semibold text-white mb-4">Let&rsquo;s Build Something Together</h2>
   <p className="text-lg text-gray-300 mb-6">
-    I'm passionate about crafting fast, responsive, and modern web experiences. If you're looking for a developer to collaborate on your next project or just want to connect reach out!
+    I&rsquo;m passionate about crafting fast, responsive, and modern web experiences. If you&rsquo;re looking for a developer to collaborate on your next project or just want to connect reach out!
   </p>
 
   <div className="flex justify-center gap-6 text-2xl text-blue-400 mb-4">
