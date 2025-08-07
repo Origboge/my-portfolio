@@ -13,7 +13,7 @@ export default function Home() {
     <section id="about" className="py-16 px-6 max-w-3xl mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-500">About Me</h2>
       <p className="text-lg text-gray-300 leading-relaxed">
-        I'm <span className="font-semibold">Bamise Akinfiresoye</span>, a curious mind with a background in Microbiology, and a growing passion for web development.
+        I&rsquo;m <span className="font-semibold">Bamise Akinfiresoye</span>, a curious mind with a background in Microbiology, and a growing passion for web development.
         Over time, I&rsquo;ve transitioned from microscopes to code editors, now building responsive, user focused websites using HTML, CSS, and JavaScript.
       </p>
 
