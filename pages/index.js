@@ -1,4 +1,6 @@
 'use client';
+import Skills from '../components/Skills';
+
 import Hero from '../components/Hero';
 import Projects from '../components/projects';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -23,13 +25,23 @@ export default function Home() {
       </p>
 
       <p className="text-lg text-gray-300 mt-4 leading-relaxed">
-        I&rsquo;m currently open to opportunities where I can grow, contribute, and collaborate whether that&rsquo;s in tech, research, or cross-functional roles that blend creativity with problem-solving.
+        I&rsquo;m currently open to opportunities where I can grow, contribute, and collaborate whether that&rsquo;s in tech, research, or cross functional roles that blend creativity with problem solving.
       </p>
+      
+  {/* Download CV Button */}
+  <a
+    href="/Bamise_CV.pdf"
+    download
+    className="inline-block mt-6 px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition duration-300"
+  >
+    📄 Download CV
+  </a>
+
     </section>
 
 
-
-      <section id="projects">
+<Skills/>
+      <section data-aos="fade-up" id="projects" >
         <Projects />
       </section>
 
