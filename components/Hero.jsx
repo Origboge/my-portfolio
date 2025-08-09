@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-white dark:bg-gray-900 transition duration-300" data-aos="fade-up">
+    <section className="py-20 flex flex-col justify-center items-center text-center px-4 bg-white dark:bg-gray-900 transition duration-300" data-aos="fade-up">
       <h1 className="text-5xl md:text-7xl font-bold mb-4 text-gray-900 dark:text-white" data-aos="fade-down" data-aos-delay="200">
         Hi, I&rsquo;m <span className="text-red-500 dark:text-red-400">Bamise Akinfiresoye</span>
       </h1>
